@@ -117,7 +117,7 @@ def train_model(evidence, labels):
 def evaluate(labels, predictions):
     """
     Given a list of actual labels and a list of predicted labels,
-    return a tuple (sensitivity, specificity).
+    return a tuple (sensitivity, specificity). 
 
     Assume each label is either a 1 (positive) or 0 (negative).
 
